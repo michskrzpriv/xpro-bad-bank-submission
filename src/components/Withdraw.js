@@ -10,12 +10,14 @@ import CashierForm from "./CashierForm";
 // OK Withdraw button 
 // OK Balance information displays above deposit form on the card
 
-// Withdraw page should include the following functionality:
-// OK Updated Balance: When a user completes the withdrawal form, the number submitted is subtracted from the total balance. 
-// OK Success Message: When a user completes the withdrawal form, they receive a success message confirming that their withdraw was processed. 
+//VALIDATION
 // OK Account Overdraft Feature: When a user withdraws a number higher than the account balance, the user receives an alert message on the withdraw page.
 // OK Not A Number Alert: User receives an alert if they add something that is not a number. 
 // OK Disable deposit button if nothing is input
+
+// Withdraw page should include the following functionality:
+// OK Updated Balance: When a user completes the withdrawal form, the number submitted is subtracted from the total balance. 
+// OK Success Message: When a user completes the withdrawal form, they receive a success message confirming that their withdraw was processed. 
 
 export default function Withdraw() {
   const ctx = React.useContext(UserContext);

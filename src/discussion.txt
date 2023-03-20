@@ -1,0 +1,19 @@
+What challenges did you encounter as you created this project? How did you overcome them?
+1. Had to understand Routing within single page.
+2. Had to rethink Context, to use it according to patterns.
+
+Discuss your design decisions. What changes did you make from the starter code?
+1. At start I coded whole app without Create-React-App. From zero. I bundled everything
+myself with Webpack. However the app bundled that way exceeded 3MB. I didn't 
+know how to overcome that. Moving my files to Create-React-App made it much smaller.
+2. I used Formik as form framework, which I consider excellent. I added Yup as 
+validation engine.
+
+Did you create a form component? Why or why not?
+1. Yes, called CashierForm. 
+Works like a cashier, accepts or gives the money. Based on Configuration
+It's a single form that encapsulates cash-in and cash-out.
+
+What extra features or enhancements did you build?
+1. Added LocalStorage, to store user changes.
+2. Also added a choice of a user we'd like to operate on.

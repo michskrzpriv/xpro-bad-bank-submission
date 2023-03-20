@@ -13,19 +13,21 @@ import { nanoid } from "nanoid";
 //Add validation to form fields
 
 // Includes a Bootstrap card with a form that has:
-// OK Name input field
+// OK Name input field: Clarice Starling
 // OK Email address input field
 // OK Password input field
 // OK Create account button
+
+// VALIDATION
+// OK Name validation: The user receives an alert if the name field is left blank.
+// OK Email validation: The user receives an alert if this field is blank
+// OK Password validation: The user receives an alert if the password is less than 8 characters long.
+// OK Disable submit button if nothing is inputted
 
 // Create account page should include the following functionality:
 // OK Success message: Upon selecting the create account button the user should see a success message.
 // OK Add Another Account Button: Upon selecting the create account button, the user should see an add another account button.
 // OK Cleared Create Account Form: Upon selecting the create account button, t will open a cleared create account form.
-// OK Name validation: The user receives an alert if the name field is left blank.
-// OK Email validation: The user receives an alert if this field is blank
-// OK Password validation: The user receives an alert if the password is less than 8 characters long.
-// OK Disable submit button if nothing is inputted
 
 export default function CreateAccount() {
   const [success, setSuccess] = React.useState(false);

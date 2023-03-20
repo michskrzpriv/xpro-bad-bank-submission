@@ -11,11 +11,13 @@ import CashierForm from "./CashierForm";
 // OK Deposit button
 // OK Balance information displays above deposit form on the card
 
-// Deposit page should include the following functionality:
-// OK,TODO Success Message: When a user completes the deposit form, they receive a success message confirming their deposit was received.
 // OK Not A Number Alert: User receives an alert if they add something that is not a number.
 // OK Negative Deposit Alert: User receives an alert if they try to deposit a negative number.
 // OK Disable deposit button if nothing is input
+
+// Deposit page should include the following functionality:
+// OK Success Message: When a user completes the deposit form, they receive a success message confirming their deposit was received.
+
 
 export default function Deposit() {
   const ctx = React.useContext(UserContext);

@@ -71,9 +71,10 @@ export default function App() {
       <hr />
       <footer>
         <div className="p-2">
-          License: MIT. Project made by{" "}
+          License: MIT. 
+          {/* Project made by{" "}
           <a href="https://michalskrzynski.github.io/">Michal</a> for MIT xPro
-          MERN stack course.
+          MERN stack course. */}
         </div>
       </footer>
     </div>
